@@ -1,0 +1,75 @@
+<title1>I. Présentation du composant</title1>
+
+<title2>I.1. Caractéristiques du circuit</title2>
+
+<title2>I.2. Connexions</title2>
+
+<center>
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/D0336F59DE50F5EE/images/diagramme de connexion.gif" title="Diagramme de connexion">
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/D0336F59DE50F5EE/images/symbole logique.gif" title="Symbole logique">
+De gauche à droite: Diagramme de connexion et symbole logique
+</center>
+
+<title2>I.3. Table de vérité</title2>
+
+<table center>
+<head>
+<cell col="1" row="1">Entrée B</cell>
+<cell col="1" row="1">Entrée A</cell>
+<cell col="1" row="1">Sortie</cell>
+</head>
+<line>
+<cell col="1" row="1">0</cell>
+<cell col="1" row="1">0</cell>
+<cell col="1" row="1">1</cell>
+</line>
+<line>
+<cell col="1" row="1">0</cell>
+<cell col="1" row="1">1</cell>
+<cell col="1" row="1">0</cell>
+</line>
+<line>
+<cell col="1" row="1">1</cell>
+<cell col="1" row="1">0</cell>
+<cell col="1" row="1">0</cell>
+</line>
+<line>
+<cell col="1" row="1">1</cell>
+<cell col="1" row="1">1</cell>
+<cell col="1" row="1">0</cell>
+</line>
+</table>
+
+<title1>II. Montages</title1>
+
+<title2>II.1. Montage de test</title2>
+
+Il est parfois intéressant de connaitre l'état d'un composant, surtout si ce dernier provient de recyclage. Le temps et l'usure peuvent avoir altéré voir détruit tout ou partie de sa structure interne. Il convient alors de tester la puce afin de déterminer si elle peut encore être utilisée ou si elle doit être remplacée. Ce montage permet de vérifier le composant et de déterminer s'il est défaillant ou non, de ce fait il peut également permettre de déceler une panne dans un montage, pour cela on dessoude le circuit incriminé et on le test. En outre ce montage ne permet pas de vérifier si les temps de réponse, les tensions ou encore les courants relatifs au composant demeurent inchangés ou non.
+
+<center>
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/D0336F59DE50F5EE/images/7402 Test Circuit schema.gif" title="Schéma de montage">
+</center>
+
+Le circuit de test est relativement simple, la tension d'alimentation doit être comprise entre 4,5V et 5,5V (tension appliquée aux circuits TTL). Comme il s'agit d'un montage de test, les temps de réponse et les chutes de tension sont négligées, c'est la raison pour laquelle, on n'utilise pas de condensateur de découplage et de transistor pour alimenter les diodes. Il est possible de réduire le nombre de composants et de n'utiliser qu'une seule DEL à la fois ainsi que 3 résistances et seulement deux interrupteurs, mais il faudra alors modifier le montage pour tester chaque porte logique.
+
+<center>
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/D0336F59DE50F5EE/images/7402 Test Circuit.gif" title="Montage sur plaque sans soudure">
+</center>
+
+On procède au test du circuit sur plaque dite "à contactes sans soudures" afin de simplifier la procédure de contrôle du circuit et de pouvoir réutiliser les composants employés.
+
+<center>
+<imagemini url="./web/fr/pages/temp/D2309EFC5AB81674/D0336F59DE50F5EE/images/7402 off.jpg" title="Essai sur plaque sans soudure">
+<imagemini url="./web/fr/pages/temp/D2309EFC5AB81674/D0336F59DE50F5EE/images/7402 on.jpg" title="Essai sur plaque sans soudure">
+</center>
+
+Lors du test, on commute les interrupteurs en suivant la table de vérité du circuit.
+<listnum>
+<item>On commence avec tous les interrupteurs ouverts, ainsi les tensions présentent sur les entrées des portes logiques sont définies à un niveau haut par connexion au +5V par des pull-up (les 8 résistances de 10k), les entrées A et B de chaque porte NOR sont alors placées au niveau haut, fournissant donc un niveau bas en sortie, les led sont alors éteintes.</item>
+<item>On commute les interrupteurs afin de placer les entrées A au niveau bas par mise à la masse des broches du circuit, les entrée B étant toujours au niveau haut, les sorties présentent alors un état bas, les led sont éteintes.</item>
+<item>On commute les interrupteurs afin de placer les entrées B au niveau bas par la mise à la masse des broches du circuit, les entrées A et B sont alors au niveau bas, les sorties présentent alors un niveau haut, les led sont allumées.</item>
+<item>On commute les interrupteurs afin de placer les entrées A au niveau haut par le pull-up au +5V, les entrées A sont alors au niveau haut tandis que les entrées B sont toujours au niveau bas, les sorties présentent donc un niveau bas, les led sont éteintes.</item>
+</listnum>
+Si les led ne sont allumées que lorsque les entrées A et B des portes logiques sont placées au niveau bas, le circuit est opérationnel, le cas échéant il faudra vérifier le montage de test, et si le problème persiste alors on procédera au remplacement du circuit.
+
+<title2>II.2. Autres montages</title2>

@@ -1,0 +1,1 @@
+[subject]chemistry[/subject][type]lesson[/type][title]page de test[/title][pointer][/pointer][tag]sdfds[/tag][reference]fsdfsfdsd[/reference][smile][/smile][requisite]fsdf[/requisite][author]D2309EFC5AB81674[/author][request]works[/request]

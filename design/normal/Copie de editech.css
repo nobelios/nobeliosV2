@@ -1,0 +1,318 @@
+#body {
+	margin-left:				165px;
+	padding:				25px;
+	background-color:			#9999AA;
+	border:					1px solid #000000;
+	color:					#000000;
+	font-size:				14px;
+	font-weight:				normal;
+	font-family:				Arial, Verdana, serif; }
+
+#head {
+	border:					1px solid #000000;
+	text-align:				left;
+	padding-left:				50px;
+	margin-bottom:				15px;
+	height:					90px;
+	background:				#9999AA;
+	border-top:				1px solid #FFFFFF;
+	border-bottom:				1px solid #FFFFFF;
+	color:					#000000; }
+
+#menu {
+	border:					1px solid #000000;
+	background-color:			#9999AA;
+	position:				relative;
+	float:					left;
+	width:					150px;
+	color:					#000000; }
+
+body {
+	min-width: 				950px;
+	width: 					expression(this.width < 950 ? 950px : 殿uto・;
+	min-height: 				950px;
+	height: 				expression(this.height < 950 ? 950px : 殿uto・;
+	background-color:			#444455;
+	font-family:				Arial, Verdana, serif;
+	font-size:				14px }
+
+.list {
+	border:					1px solid black;
+	padding:				4px;
+	text-align:				center;
+	min-width:				650px;
+	overflow:				hidden; }
+
+table {
+	border:					1px solid black;
+	text-align:				left;
+	width:					100%;
+	overflow:				hidden; }
+
+tr {
+	border:					1px solid black;
+	text-align:				left;
+	height:					10px;
+	padding:				0px;
+	margin:					0px 0px;
+	overflow:				hidden; }
+
+tr.title {
+	border:					1px solid black;
+	background-color:			blue;
+	text-align:				left;
+	height:					10px;
+	padding:				0px;
+	margin:					0px 0px;
+	overflow:				hidden; }
+	
+tr.text:hover {
+	background-color:			orange; }
+	
+td {
+	border:					1px solid black;
+	padding:				0px;
+	margin:					1px 2px;
+	text-align:				left; }
+	
+.viewer {
+	text-align:				center;
+	border:					1px solid black;
+	min-width:				650px;
+	margin-bottom:				10px; }	
+
+.flashPlayer {
+	text-align:				center;
+	width:					650px; }	
+
+.imageBox {
+	text-align:				center;
+	border:					1px solid black;
+	margin:					4px;
+	width:					120px;
+	height:					180px;
+	float:					left;
+	font-family:				Arial, Verdana, serif;
+	font-size:				12px; }
+
+.button {
+	text-align:				center;
+	vertical-align:				middle;
+	border:					1px solid black;
+	padding:				2px 5px;
+	text-decoration:			none;
+	cursor:					pointer; }
+
+.imageMini{
+	border:					0px none;
+	margin:					0px;
+	padding:				0px;
+	max-width: 				120px;
+	width: 					expression(this.width > 120 ? ・20px・: 殿uto・;
+	max-height: 				120px;
+	height: 				expression(this.height > 120 ? ・20px・: 殿uto・;
+	display:				table-cell;
+	cursor:					pointer; }
+
+.imageButton {
+	margin:					0px;
+	padding:				1px;
+	border:					none;
+	cursor:					pointer; }
+
+.imageButton:hover {
+	margin:					0px;
+	padding:				1px;
+	background-color:			orange;
+	border:					none;
+	cursor:					pointer;}
+
+.imageInBox {
+	text-align:				center;
+	vertical-align:				middle;
+	display:				table-cell;
+	vertical-align:				middle;
+	width:					120px;
+	height:					126px; }
+
+.imageOptions {
+	text-align:				center;
+	width:					120px; }
+
+
+/*
+-----------------------------------------	
+	Formulaires espace utilisateur
+-----------------------------------------
+*/
+
+.hrefDiv a {
+	display: 				block ;
+	color: 					black ;
+	line-height:				1em;
+	vertical-align:				center;
+	text-decoration:			none;
+	padding:				2px 5px; }
+
+.hrefDiv a:hover {
+	display: 				block;
+	background:				orange;
+	vertical-align:				50px;
+	color:					black;
+	line-height:				1em;
+	text-decoration:			none;
+	padding:				2px 5px; }
+
+.hrefDiv span {
+	vertical-align:				50%; 
+	padding-left:				5px; }
+
+.hrefDiv img {
+	border:					0px none; }
+
+
+/*
+-----------------------------------------	
+	Formulaires espace utilisateur
+-----------------------------------------
+*/
+
+.userForm div {
+	border:					0px none; }
+
+.userForm table {
+	border:					0px none; }
+
+.userForm tr {
+	border:					0px none; 
+	font-size:				14px;
+	font-weight:				normal;
+	font-family:				Arial, Verdana, serif; }
+
+.userFormLegende
+{
+	border:					0px none;
+	width:					120px; }
+
+.userFormField
+{
+	border:					0px none; }
+
+	
+/*
+-----------------------------------------	
+	Formatage du texte editech
+-----------------------------------------
+*/
+
+.editechUnderline {
+	margin:					0px;
+	text-decoration:			underline; }
+
+.editechStrike {
+	margin:					0px;
+	text-decoration:			line-through; }
+	
+.editechTitle1 {
+	margin:					0px;
+	padding-left:				5px;
+	background-color:			#707080;
+	text-align: 				left;
+	font-size:				16px; 
+	font-weight:				bold; }
+
+.editechTitle2 {
+	margin:					0px;
+	padding-left:				5px;
+	background-color:			#858595;
+	text-align: 				left;
+	font-size:				15px; 
+	font-weight:				bold; }
+
+.editechUl {
+	margin:					5px 0px; }
+
+.editechOl {
+	margin:					5px 0px;  }
+
+.editechLi {
+	margin:					0px; }
+	
+.editechHazard {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 				50px;
+	height: 				expression(this.height < 50 ? ・Opx・: 殿uto・;
+	background-position:			center left;
+	background:				url(".images/fr/hazard.png") no-repeat;
+	vertical-align:				middle;
+	text-align:				justify;
+	color:					#AA0000; }
+
+.editechWarning {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 				50px;
+	height: 				expression(this.height < 50 ? ・Opx・: 殿uto・;
+	background-position:			center left;
+	background:				url(".images/fr/warning.png") no-repeat;
+	vertical-align:				middle;
+	text-align:				justify;
+	color:					#CC8800; }
+
+.editechInformation {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 				50px;
+	height: 				expression(this.height < 50 ? ・Opx・: 殿uto・;
+	background-position:			center left;
+	background:				url(".images/fr/information.png") no-repeat;
+	vertical-align:				middle;
+	text-align:				justify;
+	color:					#303030; }
+
+.editechQuery {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 				50px;
+	height: 				expression(this.height < 50 ? ・Opx・: 殿uto・;
+	background-position:			center left;
+	background:				url(".images/fr/query.png") no-repeat;
+	vertical-align:				middle;
+	text-align:				justify;
+	color:					#303080; }
+
+.editechAnswer {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 				50px;
+	height: 				expression(this.height < 50 ? ・Opx・: 殿uto・;
+	background-position:			center left;
+	background:				url("./images/fr/answer.png") no-repeat;
+	vertical-align:				middle;
+	text-align:				justify;
+	color:					#308030; }
+
+.editechCenter {
+	margin:					0px 0px 0px 0px;
+	padding:				0px 0px 0px 0px;
+	text-align:				center; }
+
+.editechImageMini {
+	margin:					0px 2px;
+	border:					1px solid orange;
+	max-width: 				200px;
+	width: 					expression(this.width > 200 ? ・00px・: 殿uto・;
+	max-height: 				150px;
+	height: 				expression(this.height > 150 ? ・50px・: 殿uto・; }
+
+.linker {
+	padding:				0px 0px 5px 0px; }
+
+a {
+	color:					blue;
+	text-decoration:			none; }
+
+a:hover {
+	color:					orange;
+	text-decoration:			none; }

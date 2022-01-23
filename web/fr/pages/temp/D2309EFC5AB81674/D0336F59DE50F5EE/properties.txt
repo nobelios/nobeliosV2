@@ -1,0 +1,1 @@
+[subject]electronics[/subject][type]data[/type][title]7402 - NOR[/title][pointer][/pointer][tag]NOR_74XXX_TTL_7402_74F02_74LS02[/tag][reference][/reference][smile][/smile][requisite]7402[/requisite][author]D2309EFC5AB81674[/author][request]works[/request]

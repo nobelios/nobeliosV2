@@ -1,0 +1,1 @@
+[subject]electronics[/subject][type]data[/type][title]4001 - NOR[/title][pointer][/pointer][tag]4001_CMOS_NOR_4XXX[/tag][reference][/reference][smile][/smile][requisite][/requisite][author]D2309EFC5AB81674[/author][request]works[/request]

@@ -1,0 +1,233 @@
+<title1>I. Présentation du composant</title1>
+
+<title2>I.1. Caractéristiques du circuit</title2>
+
+<title2>I.2. Connexions</title2>
+
+<center>
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/379AD5930574376A/images/diagramme de connexion.gif" title="">
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/379AD5930574376A/images/symbole logique.gif" title="">
+De gauche à droite: Diagramme de connexion et symbole logique 
+</center>
+
+<title2>I.3. Table de vérité</title2>
+
+<table center>
+<head>
+<cell col="1" row="1">Entrée A</cell>
+<cell col="1" row="1">Entrée B</cell>
+<cell col="1" row="1">Sortie</cell>
+</head>
+<line>
+<cell col="1" row="1">0</cell>
+<cell col="1" row="1">0</cell>
+<cell col="1" row="1">1</cell>
+</line>
+<line>
+<cell col="1" row="1">0</cell>
+<cell col="1" row="1">1</cell>
+<cell col="1" row="1">0</cell>
+</line>
+<line>
+<cell col="1" row="1">1</cell>
+<cell col="1" row="1">0</cell>
+<cell col="1" row="1">0</cell>
+</line>
+<line>
+<cell col="1" row="1">1</cell>
+<cell col="1" row="1">1</cell>
+<cell col="1" row="1">0</cell>
+</line>
+</table>
+
+<title1>II. Montages</title1>
+
+<title2>II.1. Montage de test</title2>
+
+<center>
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/379AD5930574376A/images/4001 Test Circuit.gif" title="">
+</center>
+
+<title2>II.2. Autres montages</title2>
+
+<table center>
+<head>
+<cell col="1" row="1">Désignation</cell>
+<cell col="1" row="1">Formule</cell>
+<cell col="1" row="1">MM g/mol</cell>
+<cell col="1" row="1">Densité</cell>
+<cell col="1" row="1">pF °C</cell>
+<cell col="1" row="1">pEb °C</cell>
+<cell col="1" row="1">Solubilité</cell>
+</head>
+<line>
+<cell col="1" row="1">méthylvinylcétone</cell>
+<cell col="1" row="1">C<sub>4</sub>H<sub>6</sub>O</cell>
+<cell col="1" row="1">70,09 g/mol</cell>
+<cell col="1" row="1">0,85 g/ml</cell>
+<cell col="1" row="1">-7 °C</cell>
+<cell col="1" row="1">80 - 81 °C</cell>
+<cell col="1" row="1">eau=soluble, soluble dans le méthanol, l'éthanol, l'acétone et l'acide acétique</cell>
+</line>
+<line>
+<cell col="1" row="1">toluène</cell>
+<cell col="1" row="1">C<sub>7</sub>H<sub>8</sub></cell>
+<cell col="1" row="1">92,14 g/mol</cell>
+<cell col="1" row="1">0,87 g/ml</cell>
+<cell col="1" row="1">-96 °C</cell>
+<cell col="1" row="1">110.6 °C</cell>
+<cell col="1" row="1">eau=0,52 g/l (20 °C), soluble dans l'éthanol, l'acétone et le chloroforme</cell>
+</line>
+<line>
+<cell col="1" row="1">thiobenzamide</cell>
+<cell col="1" row="1">C<sub>7</sub>H<sub>7</sub>NS</cell>
+<cell col="1" row="1">137,20 g/mol</cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1">113 - 116 °C</cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1">eau=difficilement soluble, soluble dans l'éthanol</cell>
+</line>
+<line>
+<cell col="1" row="1">dichlorométhane</cell>
+<cell col="1" row="1">CH<sub>2</sub>Cl</cell>
+<cell col="1" row="1">84,93 g/mol</cell>
+<cell col="1" row="1">1,33 g/ml</cell>
+<cell col="1" row="1">-95 °C</cell>
+<cell col="1" row="1">40 °C</cell>
+<cell col="1" row="1">eau=20 g/l (20 °C), soluble dans l'éthanol, l'acétone et le chloroform</cell>
+</line>
+<line>
+<cell col="1" row="1">acétate d'éthyle</cell>
+<cell col="1" row="1">C<sub>4</sub>H<sub>8</sub>O<sub>2</sub></cell>
+<cell col="1" row="1">88,11 g/mol</cell>
+<cell col="1" row="1">0,90 g/ml</cell>
+<cell col="1" row="1">-83 °C</cell>
+<cell col="1" row="1">77 °C</cell>
+<cell col="1" row="1">eau=85,3 g/l (20 °C), soluble dans l'éthanol, l'acétone et le chloroforme</cell>
+</line>
+<line>
+<cell col="1" row="1">cyclohexane</cell>
+<cell col="1" row="1">C<sub>6</sub>H<sub>12</sub></cell>
+<cell col="1" row="1">84,16 g/mol</cell>
+<cell col="1" row="1">0,78 g/ml</cell>
+<cell col="1" row="1">6 °C</cell>
+<cell col="1" row="1">81 °C (1013 hPa)</cell>
+<cell col="1" row="1">eau=0,055 g/l (20°C), soluble dans l'éthanol, l'acétone et le chloroforme</cell>
+</line>
+<line>
+<cell col="1" row="1">diméthylacétal de diméthylformamide</cell>
+<cell col="1" row="1">C<sub>5</sub>H<sub>13</sub>NO<sub>2</sub></cell>
+<cell col="1" row="1">119,16 g/mol</cell>
+<cell col="1" row="1">0,90 g/ml</cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1">eau= ,  </cell>
+</line>
+<line>
+<cell col="1" row="1">N'-thioaroylformamidine</cell>
+<cell col="1" row="1">C<sub>10</sub>H<sub>12</sub>N<sub>2</sub>S</cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1">1,02 g/ml</cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1">eau= ,  </cell>
+</line>
+<line>
+<cell col="1" row="1">hydroquinone</cell>
+<cell col="1" row="1">C<sub>6</sub>H<sub>6</sub>O<sub>2</sub></cell>
+<cell col="1" row="1">110,11 g/mol</cell>
+<cell col="1" row="1">1,358 g/ml</cell>
+<cell col="1" row="1">172 °C</cell>
+<cell col="1" row="1">287 °C</cell>
+<cell col="1" row="1">eau=70 g/l (25 °C), soluble dans l'éthanol</cell>
+</line>
+<line>
+<cell col="1" row="1">éther diéthylique</cell>
+<cell col="1" row="1">C<sub>4</sub>H<sub>10</sub>O</cell>
+<cell col="1" row="1">74,12 g/mol</cell>
+<cell col="1" row="1">0,71 g/ml</cell>
+<cell col="1" row="1">-116,3 °C</cell>
+<cell col="1" row="1">34,6 °C</cell>
+<cell col="1" row="1">eau=69 g/l (20 °C), soluble dans l'éthanol, l'acétone et le chloroforme</cell>
+</line>
+</table>
+
+<table center>
+<head>
+<cell col="1" row="1">Désignation</cell>
+<cell col="1" row="1">Phrases R</cell>
+<cell col="1" row="1">Phrases S</cell>
+<cell col="1" row="1">Risques</cell>
+<cell col="1" row="1">Conseils</cell>
+</head>
+<line>
+<cell col="1" row="1">méthylvinylcétone</cell>
+<cell col="1" row="1">11-26/27/28-34-50/53</cell>
+<cell col="1" row="1">16-26-28.1-36/37/39-45-61</cell>
+<cell col="1" row="1">risques d'empoisonnement, risques de pollution</cell>
+<cell col="1" row="1">manipuler avec des gants une blouse et des lunettes sous hotte aspirante, ne pas jeter à l'évier</cell>
+</line>
+<line>
+<cell col="1" row="1">toluène</cell>
+<cell col="1" row="1">11-38-48/20-63-65-67</cell>
+<cell col="1" row="1">36/37-46-62</cell>
+<cell col="1" row="1">risques d'intoxication, risques d'incendies</cell>
+<cell col="1" row="1">manipuler avec des gants une blouse et des lunettes sous hotte aspirante</cell>
+</line>
+<line>
+<cell col="1" row="1">thiobenzamide</cell>
+<cell col="1" row="1">25</cell>
+<cell col="1" row="1">36/37/39-45</cell>
+<cell col="1" row="1">risques d'intoxication</cell>
+<cell col="1" row="1">manipuler avec des gants une blouse et des lunettes</cell>
+</line>
+<line>
+<cell col="1" row="1">dichlorométhane</cell>
+<cell col="1" row="1">40</cell>
+<cell col="1" row="1">23.2-24/25-36/37</cell>
+<cell col="1" row="1">cancérigène</cell>
+<cell col="1" row="1">manipuler avec des gants une blouse et des lunettes sous hotte aspirante</cell>
+</line>
+<line>
+<cell col="1" row="1">acétate d'éthyle</cell>
+<cell col="1" row="1">11-36-66-67</cell>
+<cell col="1" row="1">16-26-33</cell>
+<cell col="1" row="1">risques d'incendies, risques d'irritation</cell>
+<cell col="1" row="1">manipuler avec gants et lunettes à l'écart de toute source d'ignition</cell>
+</line>
+<line>
+<cell col="1" row="1">cyclohexane</cell>
+<cell col="1" row="1">11-38-50/53-65-67</cell>
+<cell col="1" row="1">9-16-25-33-60-61-62</cell>
+<cell col="1" row="1">risques d'intoxication, risques d'incendies</cell>
+<cell col="1" row="1">manipuler avec des gants une blouse et des lunettes sous hotte aspirante</cell>
+</line>
+<line>
+<cell col="1" row="1">diméthylacétal de diméthylformamide</cell>
+<cell col="1" row="1">11-20-36/38</cell>
+<cell col="1" row="1">16</cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1"> </cell>
+</line>
+<line>
+<cell col="1" row="1">N'-thioaroylformamidine</cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1"> </cell>
+<cell col="1" row="1">inconnus</cell>
+<cell col="1" row="1">prendre toutes les précaution possibles</cell>
+</line>
+<line>
+<cell col="1" row="1">hydroquinone</cell>
+<cell col="1" row="1">22-40-41-43-50-68</cell>
+<cell col="1" row="1">26-36/37/39-61</cell>
+<cell col="1" row="1">risques d'intoxication, risques de pollution</cell>
+<cell col="1" row="1">manipuler avec des gants une blouse et des lunettes, ne pas jeter à l'évier</cell>
+</line>
+<line>
+<cell col="1" row="1">éther diéthylique</cell>
+<cell col="1" row="1">12-19-22-66-67</cell>
+<cell col="1" row="1">9-16-29-33</cell>
+<cell col="1" row="1">risques d'intoxication, risques d'incendies, formation de peroxydes explosifs</cell>
+<cell col="1" row="1">manipuler avec gants, blouse et lunettes, sous hotte aspirante, à l'écart de toute source d'ignition et faire un test peroxyde avant distillation</cell>
+</line>
+</table>

@@ -1,0 +1,113 @@
+<title1>I. Informations sur le produit et sécurité :</title1>
+
+<hazard>
+Cette manipulation est dangereuse car elle nécessite l'utilisation de phénol, ce produit peut rendre aveugle par simple contact avec les yeux, de plus il est toxique et provoque des Brûlures chimiques pouvant être importantes. C'est pourquoi il faut manipuler ce produit avec le maximum de précautions. Les nitrophénols sont toxiques et possèdent un effet cumulatif sur l'organisme.
+</hazard>
+
+<information>
+Le 2-nitrophénol peut être utilisé comme indicateur coloré, il vire du jaune à l'incolore lorsqu'il est placé en milieu acide. Son odeur est caractéristique et fait penser à celle de l'amande amère.
+</information>
+
+<sound url="./web/fr/temp/D2309EFC5AB81674/FEACB39BA6A28D40/videos/1 HANAJI.mp3">
+
+<title1>II. Synthèse :</title1>
+
+<title2>II.1. Matériel et réactifs :</title2>
+
+<list>
+<item>Montage de réacteur</item>
+<item>Montage d'hydrodistillation</item>
+<item>Dispositif de filtration sur buchner</item>
+<item>Entonnoir et filtre en papier plissé</item>
+<item>Montage de chauffage à reflux</item>
+<item>Dessicateur (facultatif)</item>
+<item>Dispositif de chauffage et d'agitation</item>
+<item>Bécher de 100 ml</item>
+<item>Bécher de 500 ml</item>
+<item>Eprouvette graduée de 100 ml</item>
+<item>Ampoule à décanter de 250 ml</item>
+<item>Acide nitrique concentré</item>
+<item>Benzophénol (phénol)</item>
+<item>Méthanol</item>
+<item>Glace pilée</item>
+</list>
+
+<title2>II.2. Protocole :</title2>
+
+<title2>Nitration du benzophénol :</title2>
+
+Préparer un montage composé d'un tricol équipé d'un reflux total, d'un thermomètre et contenant 100 cm3 d'acide nitrique concentré dilué au 1/4 (25 ml d'acide pour 100 ml de solution). Sous hotte ventilée, peser 18 g de phénol dans un bécher, y ajouter 2 cm3 d'eau pour le solubiliser et verser cette solution dans une ampoule de coulée isobare qui sera immédiatement bouchée. Placer cette ampoule sur le tricol. Tout en agitant, ajouter, à l'acide nitrique dilué contenu dans le tricol, environ 2 ml de la solution aqueuse de phénol. La réaction de nitration débute immédiatement (coloration, dégagement de chaleur), si nécessaire, refroidir de façon à maintenir la température entre 44 et 45°C. Poursuivre l'addition de phénol en veillant à ce que la température du milieu réactionnel se maintienne entre 44 et 45°C. Après addition de la solution de phénol, poursuivre l'agitation pendant 10 minutes.
+
+<title2>Séparation de l'ortho et du para-nitrophénol du milieu réactionnel :</title2>
+
+Refroidir le mélange réactionnel et le verser dans une ampoule à décanter sans trop agiter. Récupérer la couche huileuse inférieure constituée d'ortho, de para-nitrophénol et de produits d'oxydation du phénol par l'acide nitrique. Soumettre le mélange récupéré à une hydrodistillation jusqu'à séparation complète de l'orthonitrophénol (environ 400 ml de distillat). Si l'orthonitrophénol (dont le point de fusion est relativement bas) ne se solidifie pas, lui ajouter un peu de glace. Récupérer l'orthonitrophénol brut.
+
+<center>
+<imagemini url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_1.23E74C90A1F40886.jpg" title="">
+<imagemini url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_2.584F2F8F4BFFC05D.jpg" title="">
+<imagemini url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_3.489B8D766FD6842C.jpg" title="">
+</center>
+
+<title2>Purification par recristalisation :</title2>
+
+Dissoudre le produit dans le minimum de méthanol en chauffant à reflux. Ajouter goutte à goutte de l'eau chaude jusqu'à apparition d'un léger trouble, puis ajouter de nouveau un minimum de méthanol pour que la solution devienne limpide. Verser la solution dans un bécher de 100 ml et laisser refroidir. Filtrer, essorer, puis sécher le produit en le plaçant dans un dessicateur ou bien en le plaçant sur un papier filtre à l'air libre.
+
+Masse théorique de produit pur et sec: 17,44 g
+Masse réelle de produit pur et sec: 6,61 g
+Rendement de la synthèse: 37,9%
+Point de fusion: 45°C
+Etat physique: cristaux jaune à l'odeur d'amande amère
+
+<center>
+<imagemini url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_4.75DA7612FC6A6DD6.jpg" title="">
+<imagemini url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_5.9BB8D037F0DADB2D.jpg" title="">
+</center>
+
+<title1>III. Théorie :</title1>
+
+<title2>Utilisation d'acide nitrique dilué :</title2>
+
+L'acide nitrique utilisé doit être dilué afin d'éviter la polynitration du phénol. L'utilisation d'acide trop concentré peut conduire à la formation de dinitrophénol voir de trinitrophénol (acide picrique, explosif utilisé dans les obus pendant la première guerre mondiale), de plus l'acide nitrique oxyderait le phénol.
+
+<title2>Formation de l'ion nitronium :</title2>
+
+<center><image url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_6.B3E198330822FD54.gif" title=""></center>
+
+<title2>Mécanisme de nitration :</title2>
+
+<center><image url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_7.7E3D99A54F6F3EB4.gif" title=""></center>
+
+<title2>Orientation de la subtitution :</title2>
+
+Le groupement -OH est ortho para directeur, car il permet la formation de formes limites en ortho et en para, contre 3 en méta. Le nombre de forme limite définit la stabilité d'un composé, plus ce dernier est élevé et plus la molécule aura de chances d'exister. On peut s'appercevoir qu'il existe deux positions possibles pour la forme ortho contre une seule pour la forme para, on peut en conclure qu'il y aura formation de 66% d'ortho-nitrophénol (2-nitrophénol) contre 33% de para-nitrophénol (4-nitrophénol). Ceci n'est valable qu'en théorie, car dans la pratique il se forme 27% de composé para et 73% de composé ortho.
+
+<underline>Ortho : 4 formes limites</underline>
+
+<center><image url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_8.F99650A43C3709B5.gif" title=""></center>
+
+<underline>Méta : 3 formes limites</underline>
+
+<center><image url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_10.00AC6B7E0003C902.gif" title=""></center>
+
+<underline>Para : 4 formes limites</underline>
+
+<center><image url="./web/fr/pages/47D6F122233C4F21/images/2-nitrophenol_9.C0A74DACDD645F9B.gif" title=""></center>
+
+<title2>Entraînement à la vapeur de l'orthonitrophénol :</title2>
+
+<center><table>
+<line>
+<cell col="1" row="1">test</cell>
+<cell col="1" row="1">fff</cell>
+</line>
+<line>
+<cell col="1" row="1">ff</cell>
+<cell col="1" row="1">ff</cell>
+</line>
+</table></center>
+
+Pour qu'un produit soit entraînable à la vapeur d'eau il doit être presque insoluble dans l'eau. Comme l'orthonitrophénol est presque insoluble dans l'eau alors que le dérivé para est plus soluble, c'est l'orthonitrophénol qui sera entraîné. Il est possible de determiner le moment ou l'entraînement est terminé à l'aide d'un réfractomètre, en effet lorsque l'indice de réfraction du distillat est identique à celui de l'eau distillée cela veut dire qu'il ne reste plus de 2-nitrophénol dans le ballon.
+
+Recristalisation de l'orthonitrophénol:
+
+On dissout le produit dans du méthanol dans lesquel il est soluble, puis on le fait cristaliser en ajoutant de l'eau, ce qui a pour effet d'augmenter la polarité du solvant et donc de diminuer la solubilité de l'ortho-nitrophénol dans le solvant. Ce dernier précipite sous forme de cristaux jaunes. <bold></bold>

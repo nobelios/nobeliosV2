@@ -1,0 +1,590 @@
+ï»¿/*
+-----------------------------------------	
+	Corps de la page (index.php)
+-----------------------------------------
+*/
+
+body {
+	background-color:		#444455;
+	font-family:			Arial, Verdana, serif;
+	font-size:				14px; }
+
+#head {
+	height:					90px;
+	border:					1px solid #000000;
+	background-color:		#ADACBA;
+	background-image:		url("images/header_back.jpg");
+	background-repeat:		repeat-x;
+	background-position:	top left;
+	padding:				0px 0px 0px 0px;
+	margin:					0px 0px 10px 0px;
+	text-align:				left;
+	color:					#000000; }
+
+.headerBackground {
+	height:					80px;
+	width:					100%;
+	text-align:				left;
+	background-image:		url("images/header.jpg");
+	padding:				10px 0px 0px 20px;
+	margin:					0px 0px 0px 0px;
+	background-repeat:		no-repeat;
+	background-position:	top left; }
+
+.headerLogo {
+	width:					100%;
+	text-align:				left;
+	background-image:		url("images/nobelios_logo.png");
+	padding:				55px 0px 0px 0px;
+	margin:					0px 0px 0px 0px;
+	background-repeat:		no-repeat;
+	background-position:	top left; }
+
+.headerText {
+	text-align:				left;
+	padding:				0px 0px 0px 0px;
+	margin:					0px 0px 0px 0px; }
+
+#menu {
+	width:					150px;
+	border:					1px solid #000000;
+	background-color:		#ADACBA;
+	background-image:		url("images/menu_back.jpg");
+	background-repeat:		repeat-x;
+	background-position:	top left;
+	padding:				0px 0px 0px 0px;
+	margin:					0px 0px 10px 0px;
+	float:					left;
+	color:					#000000; }
+
+.menuBloc {
+	border:					0px none;
+	background-image:		url("images/back_light_30.png");
+	background-repeat:		repeat;
+	padding:				3px 3px 3px 3px;
+	margin:					10px 10px 10px 10px; }
+
+#body {
+	margin-left:			160px;
+	padding:				20px 20px 20px 20px;
+	background-color:		#ADACBA;
+	border:					1px solid #000000;
+	color:					#000000;
+	font-size:				14px;
+	font-weight:			normal;
+	font-family:			Arial, Verdana, serif; }
+
+#headMini {
+	height:					60px;
+	border:					1px solid #000000;
+	background-color:		#ADACBA;
+	background-image:		url("images/header_mini_back.jpg");
+	background-repeat:		repeat-x;
+	background-position:	top left;
+	padding:				0px 0px 0px 0px;
+	margin:					0px 0px 10px 0px;
+	text-align:				left;
+	color:					#000000; }
+
+.headerMiniBackground {
+	height:					100%;
+	width:					100%;
+	text-align:				left;
+	background-image:		url("images/header_mini.jpg");
+	padding:				12px 0px 0px 20px;
+	margin:					0px 0px 0px 0px;
+	background-repeat:		no-repeat;
+	background-position:	top left; }
+
+.headerMiniLogo {
+	height:					100%;
+	width:					100%;
+	text-align:				left;
+	background-image:		url("images/nobelios_mini_logo.png");
+	padding:				0px 0px 0px 0px;
+	margin:					0px 0px 0px 0px;
+	background-repeat:		no-repeat;
+	background-position:	top left; }
+
+#body_spacer {
+	width:					99.6%;
+	border:					0px none; 
+	margin:					auto;}
+	
+/*
+-----------------------------------------	
+	Corp des popup Ã©ditech (index.php)
+-----------------------------------------
+*/
+
+.editechBackground {
+	padding:				20px 20px 20px 20px;
+	background-color:		#ADACBA;
+	border:					1px solid #000000;
+	color:					#000000;
+	font-size:				14px;
+	font-weight:			normal;
+	font-family:			Arial, Verdana, serif; }	
+
+.editechButtonImg {
+	border:					0px none;
+	padding:				0px 0px 0px 0px;
+	margin:					0px 0px 0px 0px;
+	cursor:					pointer
+}
+
+.editechButton img:hover {
+	background-image:		url("editech/hover.png");
+	cursor:					pointer;
+}
+
+/*
+-----------------------------------------	
+	Balises globales (index.php)
+-----------------------------------------
+*/
+	
+img {
+	border:					0px none; }
+
+a {
+	color:					#2020A0;
+	text-decoration:		none;
+	cursor: 				pointer; }
+
+a:hover {
+	color:					#DD4400;
+	text-decoration:		none; }
+
+/*
+-----------------------------------------	
+	Mise en page du contenu
+-----------------------------------------
+*/
+
+.pageTitle {
+	text-align:				center;
+	margin:					30px 0px 40px 0px;
+	padding:				0px 0px 0px 0px; 
+	font-size:				18px;
+	font-weight:			normal;	}
+
+.pageLinker {
+	padding:				0px 0px 0px 0px; }
+
+/* Cadre d'information sur le dossier */
+.pageFolderInfo {
+	height: 				100px;
+	border:					1px solid black;
+	background-color:		#9090A0;
+	color:					#404050;
+	margin: 				10px 0px 5px 0px;
+	padding: 				10px 10px 10px 10px;
+	text-align:				left; }
+	
+/* Cadre d'information sur le fichier */
+.pageFileInfo {
+	border:					1px solid black;
+	background-color:		#9090A0;
+	margin:					10px 0px 5px 0px;
+	padding: 				10px 10px 10px 10px;
+	text-align:				left; }
+
+.pageImage {
+	width:					100px;
+	height:					100px;
+	border:					0px none;
+	padding:				0px 0px 0px 0px;
+	margin:					0px 10px 0px 0px;
+	float:					left;
+	text-align:				center; } 
+
+.pageText {
+	border:					0px none;
+	padding:				0px 0px 0px 0px;
+	margin:					0px 0px 0px 0px;
+	text-align:				left; }
+	
+/* Cadre d'affichage des alertes */
+.pageAlert {
+	border:					1px solid black;
+	background-color:		#9090A0;
+	padding: 				10px;
+	margin: 				15px 0px 0px 0px; }
+
+/* Cadre d'affichage des fichiers */
+.pageList {
+	border:					1px solid black;
+	background-color:		#9090A0;
+	margin:					10px 0px 5px 0px;
+	padding:				10px 10px 10px 10px; } 
+
+/* Legende de la liste de fichier */
+.pageListLegendTable {
+	width:					100%;
+	height:					20px;
+	border:					1px solid black;
+	border-right:			0px none; }
+
+.pageListLegendRow {
+	padding:				1px 5px 1px 5px;
+	margin:					1px 2px 1px 2px;
+	border:					0px none;
+	border-right:			1px solid black; 
+	background-color:		#707080; }
+	
+.pageListLegendCell {
+	padding:				1px 5px 1px 5px;
+	margin:					1px 2px 1px 2px;
+	border:					0px none;
+	border-right:			1px solid black; }
+	
+/* Liste de fichier */
+.pageListDisplay {
+	height:					400px;
+	background-color:		#A0A0B0;
+	border:					1px solid black;
+	border-top:				0px none;
+	overflow-x:				hidden;
+	overflow-y:				auto; }
+
+.pageListTable {
+	width:					100%;
+	margin:					0px 0px 0px 0px;
+	padding:				0px 0px 0px 0px;
+	border-collapse:		collapse;
+	border: 				0px none; }
+
+
+.pageListRowColor1 {
+	width:					100%;
+	margin:					0px 0px 0px 0px;
+	padding:				0px 0px 0px 0px;
+	background-color:		#A0A0B0; }
+	
+.pageListRowColor2 {
+	width:					100%;
+	margin:					0px 0px 0px 0px;
+	padding:				0px 0px 0px 0px;
+	background-color:		#B0B0C0; }
+
+.pageListCell {
+	margin:					0px 0px 0px 0px;
+	padding:				1px 6px 1px 6px;	}
+
+/* Dans les tableaux de listes */
+.pageListTable a {
+	color:					#000000; }
+	
+.pageListTable tr:hover {
+	background-color:		#5050C0; }
+
+.pageListForm {
+	margin:					0px 0px 0px 0px;
+	padding:				3px 3px 3px 3px;
+}
+
+
+/* Informations au survole des icons */
+a.pageListIconInfo {
+	color:					#000000;
+	font-size:				12px;
+	text-decoration:		none; }
+	
+a.pageListIconInfo:hover {
+	color:					#000000;
+	background:				none; }
+	
+a.pageListIconInfo:hover span {
+	display: 				block;
+	width:					100%;
+	padding:				0px 0px 0px 0px;
+	margin:					0px 0px 0px 0px;}
+	
+a.pageListIconInfo .pageListIconInfoFrame {
+	display:				none; }
+	
+a.pageListIconInfo .pageListIconInfoBack {
+	display:				none; }
+
+a.pageListIconInfo span{
+	display:				none; }
+
+a.pageListIconInfo:hover .pageListIconInfoBack {
+	z-index:				4;
+	opacity:				0.70;
+	padding:				5px 5px 5px 5px;
+	margin:					0px 0px 0px 0px;
+	width:					180px;
+	height:					100%;
+	background-color:		#000000;
+	display:				block; /* on affiche l'infobulle */
+	position:				fixed;
+	white-space:			nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+	top:					0px; /* on positionne notre infobulle */
+	left:					0px;
+	border:					0px none; }
+	
+a.pageListIconInfo:hover .pageListIconInfoFrame {
+	z-index:				5;
+	padding:				5px 5px 5px 5px;
+	margin:					0px 0px 0px 0px;
+	background-image:		url("images/info_back.jpg");
+	background-repeat:		no-repeat;
+	background-position:	top left;
+	width:					170px;
+	height:					330px;
+	background-color:		#C2BED7;
+	display:				block; /* on affiche l'infobulle */
+	position:				fixed;
+	white-space:			nowrap; /* on change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non-désiré */
+	top:					40px; /* on positionne notre infobulle */
+	left:					30px;
+	border:					1px solid black; }
+
+.pageListIconInfoText {
+	height:					160px;
+	text-align:				left; }
+	
+.pageListIconInfoImage {
+	text-align:				center; }
+
+/* Affichage sous forme d'icones */
+.pageListIconDivFrame {
+	text-align:				center;
+	border:					0px solid black;
+	margin:					0px 0px 0px 0px;
+	padding:				5px 0px 0px 0px;
+	width:					80px;
+	height:					80px;
+	float:					left; }
+
+.pageListIconDivIcon {
+	text-align:				center;
+	border:					0px none;
+	margin:					0px 0px 0px 0px;
+	padding:				0px 0px 0px 0px;
+	cursor:					pointer; }
+	
+/* Affichage sous forme de miniatures */
+.pageListMiniDivFrame {
+	text-align:				center;
+	border:					0px solid black;
+	margin:					0px 0px 0px 0px;
+	padding:				5px 5px 0px 5px;
+	width:					100px;
+	height:					140px;
+	float:					left; }
+
+.pageListMiniDivIcon {
+	text-align:				center;
+	height:					100px;
+	border:					0px none;
+	margin:					0px 0px 2px 0px;
+	padding:				0px 0px 0px 0px;
+	cursor:					pointer; }
+	
+.pageListIconNormalDivText {
+	font-family:			Arial, Verdana, serif;
+	font-size:				12px; }
+
+
+.pageButton button {
+	border:					0px none;
+	font-family:			Arial, Verdana, serif;
+	margin:					0px 0px 0px -3px;
+	padding:				0px 0px 0px 0px;
+	font-size:				14px;
+	background:				none;
+	color:					#2020A0;
+	text-decoration:		none;
+	cursor: 				pointer; }
+
+.pageButton button:hover {
+	color:					#DD4400;
+	text-decoration:		none; }
+
+.pageButton a {
+	border:					0px none;
+	font-family:			Arial, Verdana, serif;
+	margin:					0px 0px 0px 0px;
+	padding:				1px 1px 1px 1px;
+	font-size:				14px;
+	background:				none;
+	color:					#2020A0;
+	text-decoration:		none;
+	cursor: 				pointer; }
+
+.pageButton a:hover {
+	color:					#DD4400;
+	text-decoration:		none; }
+
+/*
+-----------------------------------------	
+	Images
+-----------------------------------------
+*/
+
+.iconBig {
+	max-width:				100px;
+	max-height:				100px;
+	border:					0px none; }
+
+.imageButton {
+	border:					0px none;
+	cursor:					pointer; }
+
+/*
+-----------------------------------------	
+	Menu de rÃ©glages (user_space.php)
+-----------------------------------------
+*/
+
+.settingsMenuDiv a {
+	margin:					0px;
+	display: 				block ;
+	color: 					black ;
+	text-decoration:		none;
+	padding:				2px 5px 2px 5px; }
+
+.settingsMenuDiv a:hover {
+	margin:					0px;
+	display: 				block;
+	background:				orange;
+	color:					black;
+	text-decoration:		none;
+	padding:				2px 5px 2px 5px; }
+
+.settingsMenuDiv span {
+	vertical-align:			50%; 
+	padding:				Opx Opx Opx 5px; 
+	margin:					0px 0px 0px 0px; }
+
+.settingsMenuDiv img {
+	padding:				0px 0px 0px 0px;
+	margin:					0px 0px 0px 0px;
+	border:					0px none; }
+
+/*
+-----------------------------------------	
+	Formatage du texte editech
+-----------------------------------------
+*/
+
+.editechUnderline {
+	margin:					0px;
+	text-decoration:		underline; }
+
+.editechStrike {
+	margin:					0px;
+	text-decoration:		line-through; }
+	
+.editechTitle1 {
+	margin:					0px;
+	padding-left:			5px;
+	background-color:		#707080;
+	text-align: 			left;
+	font-size:				16px; 
+	font-weight:			bold; }
+
+.editechTitle2 {
+	margin:					0px;
+	padding-left:			5px;
+	background-color:		#858595;
+	text-align: 			left;
+	font-size:				15px; 
+	font-weight:			bold; }
+
+.editechUl {
+	margin:					5px 0px; }
+
+.editechOl {
+	margin:					5px 0px;  }
+
+.editechLi {
+	margin:					0px; }
+	
+.editechHazard {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 			50px;
+	background-position:	center left;
+	background-repeat:		no-repeat;
+	background-image:		url("./images/hazard.png");
+	vertical-align:			middle;
+	text-align:				justify;
+	color:					#AA0000; }
+
+.editechWarning {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 			50px;
+	background-position:	center left;
+	background-repeat:		no-repeat;
+	background-image:		url("./images/warning.png");
+	vertical-align:			middle;
+	text-align:				justify;
+	color:					#CC8800; }
+
+.editechInformation {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 			50px;
+	background-position:	center left;
+	background-repeat:		no-repeat;
+	background-image:		url("./images/information.png");
+	vertical-align:			middle;
+	text-align:				justify;
+	color:					#303030; }
+
+.editechQuery {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 			50px;
+	background-position:	center left;
+	background-repeat:		no-repeat;
+	background-image:		url("./images/query.png");
+	vertical-align:			middle;
+	text-align:				justify;
+	color:					#303080; }
+
+.editechAnswer {
+	margin:					0px 0px 0px 10px;
+	padding:				0px 0px 0px 120px;
+	min-height: 			50px;
+	background-position:	center left;
+	background-repeat:		no-repeat;
+	background-image:		url("./images/answer.png");
+	vertical-align:			middle;
+	text-align:				justify;
+	color:					#308030; }
+
+.editechCenter {
+	margin:					0px 0px 0px 0px;
+	padding:				0px 0px 0px 0px;
+	width:					100%;
+	text-align:				center; }
+
+.editechImageMini {
+	margin:					0px 2px;
+	border:					1px solid orange;
+	max-width: 				200px;
+	max-height: 			150px; }
+
+.editechTableCenter {
+	width:					80%;
+	margin:					auto;
+	border-collapse:		collapse;
+	text-align:				left; }
+
+.editechTable {
+	width:					80%;
+	border-collapse:		collapse;
+	text-align:				left; }
+
+.editechLine {
+	background-color:       #C6C5CF; }
+
+.editechCell {
+	padding:				2px 5px 2px 5px;
+	border:					1px solid black; }

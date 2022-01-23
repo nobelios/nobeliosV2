@@ -1,0 +1,19 @@
+<center>
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/5D783EB9F9E5A6B1/images/AND.gif" title="">
+
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/5D783EB9F9E5A6B1/images/NAND.gif" title="">
+
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/5D783EB9F9E5A6B1/images/NOR.gif" title="">
+
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/5D783EB9F9E5A6B1/images/NOT.gif" title="">
+
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/5D783EB9F9E5A6B1/images/OR.gif" title="">
+
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/5D783EB9F9E5A6B1/images/XNOR.gif" title="">
+
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/5D783EB9F9E5A6B1/images/XOR.gif" title="">
+
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/5D783EB9F9E5A6B1/images/quadruple NOR.gif" title="">
+
+<image url="./web/fr/pages/temp/D2309EFC5AB81674/5D783EB9F9E5A6B1/images/triple NOR.gif" title="">
+</center>

@@ -1,0 +1,1 @@
+[subject]electronics[/subject][type]lesson[/type][title]Portes logiques de type NOR[/title][pointer][/pointer][tag][/tag][reference][/reference][smile][/smile][requisite][/requisite][author]D2309EFC5AB81674[/author][request]works[/request]
